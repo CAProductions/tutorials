@@ -8,4 +8,6 @@ body {
   border-color: rgb(175, 225, 250);
   border-weight: 5px;
   border-radius: 10px;
+  width: 50%;
+  height: 500px;
 }
