@@ -25,7 +25,9 @@
     <div id="output1" class="code">Outputs here ...</div>
     <script>
       $("#comp1").click(function{
-        document.getElementById("output1").innerHTML() = document.getElementById("input1").innerHTML();
+        var output1text = document.getElementById("input1")
+        var input1text = document.getElementById("output1")
+        output1text.innerHTML = input1text.innerHTML
       });
     </script>
   </body>
