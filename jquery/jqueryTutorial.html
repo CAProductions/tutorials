@@ -20,14 +20,13 @@
       
     </div>
     <p>Explain</p>
-      <textarea id="input1" class="code">
-        Code inputted here ...
-      </textarea>
-    <div id="output1" class="code">
-      Outputs here ...
-    </div>
+    <textarea id="input1" class="code">Code inputted here ...</textarea>
+    <button id="comp1">Compile!</button>
+    <div id="output1" class="code">Outputs here ...</div>
     <script>
-      
+      $("#comp1").click(function{
+        document.getElementById("output1").innerHTML = document.getElementById("input1");
+      });
     </script>
   </body>
 </html>
