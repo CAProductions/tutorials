@@ -24,11 +24,15 @@
     <button id="comp1">Compile!</button>
     <div id="output1" class="code">Outputs here ...</div>
     <script>
-      $("#comp1").click(function{
-        var input1 = document.getElementById("input1")
-        var output1 = document.getElementById("output1")
-        output1.innerHTML = input1.value
+      $("#comp1").click(function(){
+          click1();
+          
       });
+      function click1() {
+        var input1 = document.getElementById("input1");
+        var output1 = document.getElementById("output1");
+        output1.innerHTML = input1.value;
+      }
     </script>
   </body>
 </html>
