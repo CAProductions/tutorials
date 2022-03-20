@@ -14,23 +14,88 @@
     
   </head>
   <body>
+    <h1>Chapter 1: Linking JQuery</h1>
+    <p>First, add &lt;script> tags in the &lt;head> of your document. Then, inside the first &lt;script> tag, add this here:</p>
+    <div class="code">
+      &lt;script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    </div>
+    <p>This code lets you use JQuery commands inside &lt;script> tags.</p>
+    <!-- Not used here: 
+      <textarea id="input1" class="code">Code inputted here ...</textarea>
+      <button id="comp1">Compile!</button>
+      <div id="output1" class="code">Outputs here ...</div>
+      <script>
+        $("#comp1").click(function(){
+          click1();
+        });
+          function click1() {
+          var input1 = document.getElementById("input1")
+          var output1 = document.getElementById("output1")
+          output1.innerHTML = input1.value
+        }
+      </script>
+    Not used here-->
+    <h1>Chapter 2: Using JQuery</h1>
+    <p>JQuery allows you to do actions and detect events happening to HTML elements. One of the main uses of JQuery is a pop-up. 
+      Pop-ups are very useful, especially if there are multiple options. We will be making one in this tutorial. 
+      The following are basic JQuery commands that will become very useful later on:</p>
+    <div class="code">
+      $("#myElement").click(function(){ <br />
+        <br />
+      }); <br />
+      $("#myElement").show(); <br />
+      $("#myElement").hide(); <br />
+    </div>
+    <p>And much more! For a full documentary, see <a href="https://w3shcools.com/jquery/default.asp">here.</a></p>
+    <textarea id="input2" class="code">Code inputted here ...</textarea>
+    <button id="comp2">Compile!</button>
+    <div id="output2" class="code">Outputs here ...</div>
+    <script>
+      $("#comp2").click(function(){
+        click2();
+      });
+      function click2() {
+        var input2 = document.getElementById("input2")
+        var output2 = document.getElementById("output2")
+        output2.innerHTML = input2.value
+      }
+    </script>
     <h1>Chapter #: Desc</h1>
     <p>Long desc</p>
     <div class="code">
       
     </div>
     <p>Explain</p>
-    <textarea id="input1" class="code">Code inputted here ...</textarea>
-    <button id="comp1">Compile!</button>
-    <div id="output1" class="code">Outputs here ...</div>
+    <textarea id="input2" class="code">Code inputted here ...</textarea>
+    <button id="comp2">Compile!</button>
+    <div id="output2" class="code">Outputs here ...</div>
     <script>
-      $("#comp1").click(function(){
-        click1();
+      $("#comp2").click(function(){
+        click2();
       });
-      function click1() {
-        var input1 = document.getElementById("input1")
-        var output1 = document.getElementById("output1")
-        output1.innerHTML = input1.value
+      function click2() {
+        var input2 = document.getElementById("input2")
+        var output2 = document.getElementById("output2")
+        output2.innerHTML = input2.value
+      }
+    </script>
+    <h1>Chapter #: Desc</h1>
+    <p>Long desc</p>
+    <div class="code">
+      
+    </div>
+    <p>Explain</p>
+    <textarea id="input2" class="code">Code inputted here ...</textarea>
+    <button id="comp2">Compile!</button>
+    <div id="output2" class="code">Outputs here ...</div>
+    <script>
+      $("#comp2").click(function(){
+        click2();
+      });
+      function click2() {
+        var input2 = document.getElementById("input2")
+        var output2 = document.getElementById("output2")
+        output2.innerHTML = input2.value
       }
     </script>
   </body>
