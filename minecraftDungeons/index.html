@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Minecraft Dungeons Modding Tutorial</title>
+    <meta charset="utf-8">
+    <title>Minecraft Dungeons Modding Tutorial</title>
+    <style>
+        .warning{
+            border:5px solid rgb(255, 174, 0);
+            background-color:gold;
+            border-radius:7px;
+            width:75%;
+        }
+        .info{
+            border:5px solid rgb(30, 142, 182);
+            background-color:lightblue;
+            border-radius:7px;
+            width:75%;
+        }
+    </style>
 </head>
+
 <body>
 <h1>Minecraft Dungeons Modding Tutorial</h1>
 <div class="warning">
     <h2>Warning</h2>
-    <p>This Tutorial is for Windows 10/11 Only, I cannot garenty that it will or won't work on other operating systems</p>
+    <p>This Tutorial is for Windows 10/11 Only, I cannot garenty that it will or won't work on other operating systems.</p>
 </div>
-<div>
+<h2>Things We will be using.</h2>
+<ol>
+    <li>MCD Save Edit</li>
+    <li>Minecraft Dungeons</li>
+    <li>UWP Dumper (Only if you have microsoft store version of game.)</li>
+</ol>
+<div class="info">
+    <h2>What to do if you bought the game on the microsoft store.</h2>
+    <p>If you bought the game on the microsoft store, there is a few more things you will have to do. First download <a href="https://github.com/Wunkolo/UWPDumper/releases/">UWP Dumper</a>. Make sure you dowload the right version for your Windows OS, (32x/64x).<br>In my case I have the 64x version so I download that. Next extract the zip folder that downloads before you run the exe file. Now open minecraft dungeons. Once you have ran the UWPDumper file you should see a big list with all of the UWP programms running on your computer. Look for one called Dungeons.exe then put the number to the left of it into the text nox at the bottom, if you cant find one, thats okay. Open task manager then find minecraft dungeons, click goto details then find the process ID, put that into UWPDumper. Once you complete those steps it should download a folder called DUMP. To veiw it goto C:\Users\Username\AppData\Local\Packages\Microsoft.Lovika\TempState. When you open MCDsave Edit and it asks you where the .pak files are select the DUMP folder.</p>
+</div>
+<p>
+    to start out, lets download <a href="https://github.com/CutFlame/MCDSaveEdit/releases/tag/release%2F1.5.5.0">MCDSave Edit</a>
 </body>
 </html>
